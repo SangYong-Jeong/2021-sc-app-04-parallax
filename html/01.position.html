@@ -8,11 +8,30 @@
 	<title>Position을 배워보자</title>
 	<link rel="stylesheet" href="../css/all.min.css">
 	<link rel="stylesheet" href="../css/base.css">
-	<link rel="stylesheet" href="../css/index.css">
+	<style>
+		/* position: static|absolute|relative|fixed|sticky */
+		@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+		/* font-family: 'Lato', sans-serif; */
+		html, body {font-family: 'Lato', sans-serif; font-size: 15px;}
+		.wrapper {max-width: 800px; margin: auto;}
+		.wrapper1 {position: relative;}
+		.logo {position: absolute; top: 50px; left: 50px;}
+		.top {font-size: 50px; position: fixed; bottom: 50px; right: 50px;}
+	</style>
 </head>
 
 <body>
-
+	<div class="wrapper wrapper1">
+		<h1 class="logo">LOGO</h1>
+		<img src="../img/parallax1.jpg" alt="배경" class="w100">
+	</div>	
+	<div class="wrapper wrapper2">
+		<img src="../img/parallax2.jpg" alt="배경" class="w100">
+	</div>
+	<div class="wrapper wrapper3">
+		<img src="../img/parallax3.jpg" alt="배경" class="w100">
+	</div>
+	<i class="top fa fa-arrow-circle-up"></i>
 </body>
 
 </html>

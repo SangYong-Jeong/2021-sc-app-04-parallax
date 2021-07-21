@@ -1,9 +1,13 @@
 /************* Default **********************/
-
+.wrapper {max-width: 980px; margin: auto;}
 
 
 /************* header-wrapper **********************/
-
+.header-wrapper {}
+.header-wrapper .navi-wrap {}
+.header-wrapper .navi-wrap .navi-wp {float: left;}
+/* .header-wrapper .navi-wrap .navi-wp .navi {float: left;} */
+.header-wrapper .navi-wrap .search-wp {float: right;}
 
 
 /************* madin-wrapper **********************/

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>vw/vh</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<style>
+		/* overflow:   visible | hidden | scroll | auto */
+		/* overflow-y: visible | hidden | scroll | auto */
+		/* overflow-x: visible | hidden | scroll | auto */
+		/* .wrapper {font-size: 10vw; text-align: center; margin: auto;
+		padding: 8vw;} */
+		/* .container .wrapper .wrap {border: 10px solid green; min-height: 300px;} */
+		/* .container .wrapper .wrap {border: 10px solid green; height: 300px; overflow-y: auto;} */
+		
+		.container {border: 10px solid red;}
+		.container .wrapper {border: 10px solid blue;}
+		.container .wrapper .wrap {border: 10px solid green;
+		min-height: calc(100vh - 40px);}
+	</style>
+</head>
+<body>
+	<!-- <div class="wrapper">Hello World</div> -->
+	<div class="container">
+		<div class="wrapper">
+			<div class="wrap">
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam nisi voluptatem accusantium neque repellendus et consequatur! Iure delectus veritatis reprehenderit. Fuga repellendus animi, temporibus est nisi exercitationem voluptatibus nemo sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis laborum id, dolorum architecto aliquid veritatis reprehenderit ab quae quo commodi nihil labore consequatur excepturi, dignissimos cupiditate, minima possimus facere modi.
+			</div>
+		</div>
+	</div>
+</body>
+</html>

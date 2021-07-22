@@ -8,21 +8,46 @@
 	<link rel="stylesheet" href="../css/base.css">
 	<style>
 		/* 이미지를 영역안에 꽉 차게 넣기 */
-		/* .main-wrapper {height: 100vh; border: 5px solid red; overflow: hidden;
-		text-align: center;}  */
+		/* .main-wrapper {height: 100vh; border: 5px solid red; overflow: hidden;}  */
 		/* .main-wrapper .img {min-width: 100%; min-height: 100%;} */
 
 		.main-wrapper {font-size: 10vh;
-		height: 100vh; border: 5px solid red;
-		background-image: url('../img/parallax1.jpg');
+		height: 100vh; border: 100px solid rgba(0, 0, 0, .5); padding: 100px;
 		background-repeat: no-repeat;
-		background-position: center;}
+		background-position: center;
+		background-size: cover;
+		background-attachment: fixed;
+		background-clip: content-box;}
+
+		.main-wrapper1 {background-image: url('../img/p2.jpg'), url('../img/p1.jpg'), url('../img/parallax1.jpg'); 
+		background-repeat: no-repeat;
+		background-position: top left, center, center;
+		background-size: auto, auto, cover;
+		background-attachment: scroll, scroll, fixed;}
+		.main-wrapper2 {
+			/* background-image: linear-gradient(45deg, #f00, #0164bd); */
+			background-image: linear-gradient(180deg, #f00 50%, #0b146d 80%, #0b146d 100%);
+			background-attachment: scroll;
+			background-clip: border-box; border: none;}
+		.main-wrapper3 {
+			background-image: url('../img/parallax3.jpg');
+		}
+		.main-wrapper3 .circle {width: 300px; height: 300px; border-radius: 50%;
+		background-image: radial-gradient(at 120px 80px, #fff, #999, #111);}
 	</style>
 </head>
 <body>
-	<div class="main-wrapper">
-		가나다라마바사아
+	<div class="main-wrapper main-wrapper1">
 		<!-- <img src="../img/parallax1.jpg" alt="BG" class="img"> -->
+	</div>
+	<div class="main-wrapper main-wrapper2">
+		<!-- <img src="../img/parallax1.jpg" alt="BG" class="img"> -->
+	</div>
+	<div class="main-wrapper main-wrapper3">
+		<!-- <img src="../img/parallax1.jpg" alt="BG" class="img"> -->
+		<div class="circel-wrap">
+			<div class="circle"></div>
+		</div>
 	</div>
 </body>
 </html>

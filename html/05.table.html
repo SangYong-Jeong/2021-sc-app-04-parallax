@@ -7,9 +7,22 @@
 	<title>Table</title>
 	<link rel="stylesheet" href="../css/base.css">
 	<style>
+		html, body {height: 3000px;}
 		.wrapper {max-width: 800px; padding: 24px; margin: auto;}
-		.list-tb {width: 100%; border-collapse: separate; border-spacing: 10px; border: 1px solid red;}
-		.list-tb th, .list-tb td {border: 1px solid red;}
+		/* .list-tb {width: 100%; border-collapse: separate; border-spacing: 10px; border: 1px solid red;} */
+		.list-tb {width: 100%; margin-bottom: 16px; text-align: center;}
+		.list-tb th, .list-tb td {border: 1px solid #333; padding: 12px;}
+
+		.wrapper-tb {display: table; border-collapse: collapse; margin-bottom: 32px;}
+		.wrapper-tb > div {display: table-row;}
+		.wrapper-tb > div > div {display: table-cell; border: 1px solid red; padding: 12px; background-color: yellowgreen;}
+
+		.center-tb {width: 100%; height: 300px; border: 1px solid	red; margin-bottom: 32px;}
+		.center-tb td {background-color: yellowgreen; text-align: center; vertical-align: middle;}
+
+		.center-div {width: 100%; height: 300px; background-color: yellowgreen;
+		display: table;}
+		.center-div > div {display: table-cell; border: 2px solid black; text-align: center; vertical-align: middle;}
 	</style>
 </head>
 <body>
@@ -44,6 +57,64 @@
 				</tr>
 			</tbody>
 		</table>
+		<table class="list-tb">
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td colspan="2">2</td>
+					<td>3</td>
+					<td>4</td>
+				</tr>
+				<tr>
+					<td rowspan="2">5</td>
+					<td>6</td>
+					<td>7</td>
+					<td rowspan="2">8</td>
+					<td>9</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>11</td>
+					<td rowspan="2">12</td>
+				</tr>
+				<tr>
+					<td>13</td>
+					<td rowspan="2" colspan="2">14</td>
+					<td>15</td>
+				</tr>
+				<tr>
+					<td>16</td>
+					<td>17</td>
+					<td>18</td>
+				</tr>
+				<tr>
+					<td>19</td>
+					<td>20</td>
+					<td>21</td>
+					<td colspan="2">22</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="wrapper wrapper-tb">
+		<div>
+			<div>1</div>
+			<div>2</div>
+		</div>
+		<div>
+			<div>3</div>
+			<div>4</div>
+		</div>
+	</div>
+	<table class="wrapper center-tb">
+		<tr>
+			<td>대한민국</td>
+		</tr>
+	</table>
+	<div class="wrapper center-div">
+		<div>
+			<h1 class="logo">대한민국</h1>
+		</div>
 	</div>
 </body>
 </html>

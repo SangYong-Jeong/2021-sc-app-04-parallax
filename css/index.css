@@ -30,23 +30,31 @@ background-attachment: fixed; opacity: .8;}
 .main-wrapper h1.logo {background-color: #000; color: #fff;
 	letter-spacing: 6px; display: inline-block; padding: 12px 16px;}
 
-
 /************* about-wrapper **********************/
-.about-wrapper .info-wrap {}
+.about-wrapper h4.title {margin-bottom: 24px; text-align: center; font-size: 18px;}
+.about-wrapper .info-wrap {margin-bottom: 48px;}
 .about-wrapper .info-wrap > div {width: 50%; float: left; padding: 0 16px;}
-.about-wrapper .my-wp {text-align: center;}
-.about-wrapper .my-wp h4.title {margin-bottom: 24px;}
 .about-wrapper .my-wp h4.title .fa {margin-right: 16px;}
 .about-wrapper .my-wp .imgs {overflow: hidden;}
-.about-wrapper .my-wp img {opacity: .5; transition: all .5s;}
+.about-wrapper .my-wp img {opacity: .65; transition: all .5s;}
 .about-wrapper .my-wp img:hover {opacity: 1; transform: scale(1.2);}
 .about-wrapper .story-wp {line-height: 1.75;}
-
-
+.about-wrapper .skill {margin-bottom: 24px;}
+.about-wrapper .skill h5.title {font-size: 16px; letter-spacing: 8px; margin-bottom: 16px;}
+.about-wrapper .skill .bars {background-color: #eee;}
+.about-wrapper .skill .bars .bar {background-color: #555; color: #fff; text-align: center; padding: 10px;}
+.about-wrapper .skill:nth-child(1) .bars .bar {width: 90%;}
+.about-wrapper .skill:nth-child(2) .bars .bar {width: 85%;}
+.about-wrapper .skill:nth-child(3) .bars .bar {width: 75%;}
 
 /************* pf-wrapper **********************/
-
-
+.pf-wrapper .prj-wrap {background-color: #555; color: #fff;}
+.pf-wrapper .prj-wrap .prj {width: 25%; float: left; text-align: center; padding: 36px 0;}
+.pf-wrapper .prj-wrap h3.title {font-style: normal; font-size: 24px; margin-bottom: 16px;}
+.pf-wrapper .prj-wrap p.content {margin-bottom: 0;}
+.pf-wrapper .title-wrap {width: 100%; height: 400px; background-image: url('../img/parallax2.jpg'); background-position: center; background-size: cover; background-attachment: fixed; display: table;}
+.pf-wrapper .title-wrap .cell-wp {display: table-cell; vertical-align: middle;}
+.pf-wrapper .title-wrap .cell-wp h2.title {font-size: 24px; color: #fff; letter-spacing: 8px; font-size: 36px;}
 
 /************* contact-wrapper **********************/
 

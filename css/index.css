@@ -1,13 +1,6 @@
 /************* Default **********************/
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
-/* font-family: 'Lato', sans-serif; */
 
-html, body {font-family: 'Lato', sans-serif; font-size: 15px; height: 5000px; color: #777;}
 
-.wrapper {max-width: 980px; margin: auto; padding: 80px 16px;}
-h2.title {text-align: center; margin-bottom: 24px;}
-h3.title {text-align: center; font-style: italic; font-size: 14px; margin-bottom: 24px;}
-p.content {line-height: 1.75; margin-bottom: 48px;}
 
 /************* header-wrapper **********************/
 .header-wrapper {position: fixed; z-index: 9999; top: 0; left: 0;  color: #777;
@@ -52,12 +45,17 @@ background-attachment: fixed; opacity: .8;}
 .pf-wrapper .prj-wrap .prj {width: 25%; float: left; text-align: center; padding: 36px 0;}
 .pf-wrapper .prj-wrap h3.title {font-style: normal; font-size: 24px; margin-bottom: 16px;}
 .pf-wrapper .prj-wrap p.content {margin-bottom: 0;}
-.pf-wrapper .title-wrap {width: 100%; height: 400px; background-image: url('../img/parallax2.jpg'); background-position: center; background-size: cover; background-attachment: fixed; display: table;}
-.pf-wrapper .title-wrap .cell-wp {display: table-cell; vertical-align: middle;}
-.pf-wrapper .title-wrap .cell-wp h2.title {font-size: 24px; color: #fff; letter-spacing: 8px; font-size: 36px;}
+.pf-wrapper .title-wrap {background-image: url('../img/parallax2.jpg');}
+
+.pf-wrapper .work-wp {margin-bottom: 36px;}
+.pf-wrapper .wrok-wrap h3.title {margin-bottom: 48px;}
+.pf-wrapper .work {width: 23%; float: left; margin: 1%; overflow: hidden; border: 1px solid #eee;}
+.pf-wrapper .work img {transition: all .5s; opacity: .7;}
+.pf-wrapper .work img:hover {transform: scale(1.2); opacity: 1;}
+.pf-wrapper .bt-wp {text-align: center;}
 
 /************* contact-wrapper **********************/
-
+.contact-wrapper .title-wrap {background-image: url('../img/parallax3.jpg');}
 
 
 /************* footer-wrapper **********************/

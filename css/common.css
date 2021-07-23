@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+/* font-family: 'Lato', sans-serif; */
+
+html, body {font-family: 'Lato', sans-serif; font-size: 15px; height: 5000px; color: #777;}
+
+.wrapper {max-width: 980px; margin: auto; padding: 80px 16px;}
+h2.title {text-align: center; margin-bottom: 24px;}
+h3.title {text-align: center; font-style: italic; font-size: 14px; margin-bottom: 24px;}
+p.content {line-height: 1.75; margin-bottom: 48px;}
+.bt {border: none; padding: 16px 20px; transition: all .5s;}
+.bt.bt-grey {background-color: #eee; color: #000;}
+.bt.bt-grey:hover {background-color: #bbb;}
+.bt.bt-black {background-color: #000; color: #fff;}
+.bt.bt-black:hover {background-color: #eee; color: #000;}
+.title-wrap {width: 100%; height: 400px; background-position: center; background-size: cover; background-attachment: fixed; display: table;}
+.title-wrap .cell-wp {display: table-cell; vertical-align: middle;}
+.title-wrap .cell-wp h2.title {font-size: 24px; color: #fff; letter-spacing: 8px; font-size: 36px;}

@@ -2,16 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
 /* font-family: 'Lato', sans-serif; */
 
-html, body {font-family: 'Lato', sans-serif; font-size: 15px; height: 5000px;}
+html, body {font-family: 'Lato', sans-serif; font-size: 15px; height: 5000px; color: #777;}
 
-.wrapper {max-width: 980px; margin: auto;}
-
+.wrapper {max-width: 980px; margin: auto; padding: 80px 16px;}
+h2.title {text-align: center; margin-bottom: 24px;}
+h3.title {text-align: center; font-style: italic; font-size: 14px; margin-bottom: 24px;}
+p.content {line-height: 1.75; margin-bottom: 48px;}
 
 /************* header-wrapper **********************/
 .header-wrapper {position: fixed; z-index: 9999; top: 0; left: 0;  color: #777;
-	width: 100%;}
+	width: 100%; transition: all .5s;}
 .header-wrapper.active {background-color: #fff; color: #000; box-shadow: 0 0 10px rgba(0, 0, 0, .6);
-	transform: translateY(0); transition: all .5s;}
+	}
 .header-wrapper .navi-wrap {}
 .header-wrapper .navi-wrap .navi-wp {float: left;}
 .header-wrapper .navi-wrap .search-wp {float: right;}
@@ -30,6 +32,15 @@ background-attachment: fixed; opacity: .8;}
 
 
 /************* about-wrapper **********************/
+.about-wrapper .info-wrap {}
+.about-wrapper .info-wrap > div {width: 50%; float: left; padding: 0 16px;}
+.about-wrapper .my-wp {text-align: center;}
+.about-wrapper .my-wp h4.title {margin-bottom: 24px;}
+.about-wrapper .my-wp h4.title .fa {margin-right: 16px;}
+.about-wrapper .my-wp .imgs {overflow: hidden;}
+.about-wrapper .my-wp img {opacity: .5; transition: all .5s;}
+.about-wrapper .my-wp img:hover {opacity: 1; transform: scale(1.2);}
+.about-wrapper .story-wp {line-height: 1.75;}
 
 
 

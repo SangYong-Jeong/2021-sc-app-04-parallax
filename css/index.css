@@ -57,6 +57,20 @@ background-attachment: fixed; opacity: .8;}
 /************* contact-wrapper **********************/
 .contact-wrapper .title-wrap {background-image: url('../img/parallax3.jpg');}
 
+.contact-wrapper h3.title {margin-bottom: 48px;}
+.contact-wrapper .map-wp {width: 30%; float: left;} 
+.contact-wrapper .map-wp img {border-radius: 6px;} 
+.contact-wrapper .info-wp {width: 70%; float: left; padding-left: 36px;} 
+.contact-wrapper .info-wp .infos {padding: 16px 0;} 
+.contact-wrapper .info-wp .infos .info {font-size: 18px; line-height: 2;} 
+.contact-wrapper .info-wp .infos .info .fa {width: 36px;} 
+.contact-wrapper .info-wp h4.title {margin-bottom: 24px;} 
+.contact-wrapper .info-wp form > input {margin-bottom: 8px;}
+.contact-wrapper .info-wp form > :nth-child(1) {float: left; width: 49%;}
+.contact-wrapper .info-wp form > :nth-child(2) {float: right; width: 49%;}
+.contact-wrapper .info-wp form > :nth-child(3) {width: 100%;}
+.contact-wrapper .info-wp form > :nth-child(4) {float: right;}
+
 
 /************* footer-wrapper **********************/
 

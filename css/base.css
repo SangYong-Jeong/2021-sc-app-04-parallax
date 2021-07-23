@@ -1,6 +1,6 @@
 /* font-weight: normal, bold, bolder, light, lighter */
 /* font-weight: 100, 200, 300, 400, 800 */
-html, body, h1, h2, h3, h4, h5, h6, p, div, form, input, textarea, table, td, th {margin: 0; padding: 0; box-sizing: border-box;}
+html, body, h1, h2, h3, h4, h5, h6, p, div, form, input, textarea, table, td, th, header, section, aside, footer, article, nav {margin: 0; padding: 0; box-sizing: border-box;}
 h1, h2, h3, h4, h5, h6 {font-weight: inherit;}
 img {vertical-align: bottom;}
 table {border-spacing: 0; border-collapse: collapse;}

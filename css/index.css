@@ -1,6 +1,4 @@
-/************* Default **********************/
-
-
+html, body {font-family: 'Lato', sans-serif; font-size: 15px; color: #777;}
 
 /************* header-wrapper **********************/
 .header-wrapper {position: fixed; z-index: 9999; top: 0; left: 0;  color: #777;
@@ -71,8 +69,11 @@ background-attachment: fixed; opacity: .8;}
 .contact-wrapper .info-wp form > :nth-child(3) {width: 100%;}
 .contact-wrapper .info-wp form > :nth-child(4) {float: right;}
 
-
 /************* footer-wrapper **********************/
-
-
+.footer-wrapper {text-align: center; background-color: #000; color: #fff; opacity: .5;}
+.footer-wrapper:hover {opacity: 1;}
+.footer-wrapper .bt-wrap {margin-bottom: 24px;}
+.footer-wrapper .bt-top {display: inline-block;}
+.footer-wrapper .sns-wrap {margin-bottom: 24px;}
+.footer-wrapper .sns-wrap .sns {display: inline-block; font-size: 20px; margin: 0 4px;}
 

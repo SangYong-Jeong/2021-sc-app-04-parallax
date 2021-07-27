@@ -109,6 +109,7 @@ background-attachment: fixed; opacity: .8;}
 
 	.pf-wrapper .prj-wrap .prj {width: 100%;}
 	.pf-wrapper .work {width: 100%; margin: 0; overflow: hidden; border: none;}
+	.pf-wrapper .work:nth-child(4) {margin-bottom: 16px;}
 
 	.contact-wrapper .map-wp {width: 100%;} 
 	.contact-wrapper .info-wp {width: 100%; padding-left: 0;} 
